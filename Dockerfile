@@ -1,7 +1,5 @@
 FROM onlyoffice/documentserver
 
-ARG 
-
 ENV DB_TYPE=postgres
 ENV DB_HOST=${Postgres.PGHOST}
 ENV DB_NAME=${Postgres.PGDATABASE}
