@@ -1,5 +1,8 @@
 FROM onlyoffice/documentserver
 
+ARG PORT
+
+ENV PORT 80
 ENV DB_TYPE mysql
 ENV DB_HOST $MYSQLHOST
 ENV DB_NAME $MYSQLDATABASE
